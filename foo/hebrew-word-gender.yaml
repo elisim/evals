@@ -1,0 +1,8 @@
+hebrew-word-gender:
+  id: hebrew-word-gender.v0
+  description: Classification of word gender in Hebrew
+  metrics: [accuracy]
+hebrew-word-gender.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: hebrew_word_gender/samples.jsonl
